@@ -1,3 +1,6 @@
+sudo chmod 777 /home/box/web/
+sudo chmod 777 /home/box/web/*
+
 sudo /etc/init.d/nginx restart
 sudo ln -s /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
 sudo ln -s /home/box/web/etc/gunicorn.conf   /etc/gunicorn.d/hello

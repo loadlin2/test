@@ -5,7 +5,7 @@ def wsgi_application(environ,start_response):
     status='200 OK'
 
     headers=[
-	('Content-Type','text/plain'),
+	( 'Content-Type','text/plain'),
 	( 'Content-Length', str(len(body)))
     ]
 
