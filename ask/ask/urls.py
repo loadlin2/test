@@ -18,6 +18,8 @@ from qa.views import test
 
 urlpatterns = [
 #    url(r'^admin/', admin.site.urls),
+    url(r'^/',test),
+    url(r'^$',test),
     url(r'^login/',test),
     url(r'^signup/',test),
     url(r'^ask/',test),
